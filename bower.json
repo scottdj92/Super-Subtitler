@@ -1,0 +1,25 @@
+{
+  "name": "Super-Subtitler",
+  "description": "a projection-mapped speech-to-text translator",
+  "main": "index.js",
+  "authors": [
+    "Scott Jones"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "https://github.com/scottdj92/Super-Subtitler.git"
+  ],
+  "homepage": "https://github.com/scottdj92/Super-Subtitler",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "juliusjs": "^0.0.0-pre"
+  }
+}
