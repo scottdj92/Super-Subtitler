@@ -2,9 +2,11 @@
   "name": "Super-Subtitler",
   "version": "1.0.0",
   "description": "a projection-mapped speech-to-text translator",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "node test.js",
+    "bundle": "node bundle.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -13,7 +15,12 @@
   "author": "Scott Jones",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.7.0",
     "express": "^4.13.4",
-    "handlebars": "^4.0.5"
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "handlebars": "^4.0.5",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
   }
 }
