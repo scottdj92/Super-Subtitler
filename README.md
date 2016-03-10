@@ -6,3 +6,6 @@ A projection-mapped speech-to-text translator
 First, run ```npm install```, then ```bower install```.
 
 To see the project: run ```gulp``` and navigate to port 3000.
+
+## More Info
+See the documentation on [JuliusJs](https://github.com/zzmp/juliusjs).
