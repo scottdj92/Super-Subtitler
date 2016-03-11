@@ -11,7 +11,8 @@ To see the project: run ```gulp``` and navigate to port 3000.
 Updating your dictionary requires a build.
 First, add your path when you bootstrap Julius.
 ```javascript 
-new Julius('path/to/dfa', '/path/to/dict'); ```
+new Julius('path/to/dfa', '/path/to/dict'); 
+```
 
 Then, you must use the ```mkdfa.pl``` file that's distributed with JuliusJS. On OSX, this makes use of the makefile command.
 

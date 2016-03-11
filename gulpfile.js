@@ -25,4 +25,4 @@ gulp.task('watch', function() {
 	gulp.watch(['./app/**/*.html'], ['html']);
 });
 
-gulp.task('default', ['server', 'watch'], function() {});
+gulp.task('default', ['server', 'html', 'js', 'watch'], function() {});
